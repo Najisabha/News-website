@@ -1,0 +1,28 @@
+nav {
+  border-bottom: #818181 0.5px solid;
+}
+nav .nav-logo {
+  color: #B80000;
+  font-size: 34px;
+}
+nav li {
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+}
+nav .fa-magnifying-glass {
+  color: #B80000;
+}
+nav input {
+  border: #000 solid 1px;
+}
+nav input:hover {
+  outline: none;
+  border: #B80000 solid 1px;
+}
+nav input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+@import './variables' ;
+// $main-color: #B80000;
+
+nav {
+    border-bottom: #818181 0.5px solid;
+    .nav-logo {
+        color:$main_color;
+        font-size: 34px;
+    }
+    li {
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .fa-magnifying-glass {
+        color: $main_color;
+    }
+    input {
+        border: #000 solid 1px;
+        &:hover{
+            outline: none;
+            border: $main_color solid 1px;
+        }
+        &:focus {
+            box-shadow: none !important;
+            outline: none !important;
+          }
+    }
+}
