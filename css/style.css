@@ -1,26 +1,38 @@
-nav {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif;
+}
+
+header nav {
   border-bottom: #818181 0.5px solid;
 }
-nav .nav-logo {
+header nav .nav-logo {
   color: #B80000;
   font-size: 34px;
 }
-nav li {
-  color: #000;
+header nav ul li {
+  color: #818181;
+  text-decoration: none;
   font-size: 22px;
+  padding: 5px 10px;
+}
+header nav ul li:hover {
+  color: #B80000;
   font-weight: bold;
 }
-nav .fa-magnifying-glass {
+header nav .fa-magnifying-glass {
   color: #B80000;
 }
-nav input {
+header nav input {
   border: #000 solid 1px;
 }
-nav input:hover {
+header nav input:hover {
   outline: none;
   border: #B80000 solid 1px;
 }
-nav input:focus {
+header nav input:focus {
   box-shadow: none !important;
   outline: none !important;
 }

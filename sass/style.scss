@@ -1,29 +1,41 @@
-@import './variables' ;
-// $main-color: #B80000;
-
-nav {
-    border-bottom: #818181 0.5px solid;
-    .nav-logo {
-        color:$main_color;
-        font-size: 34px;
-    }
-    li {
-        color: #000;
-        font-size: 22px;
-        font-weight: bold;
-    }
-    .fa-magnifying-glass {
-        color: $main_color;
-    }
-    input {
-        border: #000 solid 1px;
-        &:hover{
-            outline: none;
-            border: $main_color solid 1px;
+@use './variables' as * ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main_font;
+}
+header {
+    nav {
+        border-bottom: $gray_color 0.5px solid;
+        .nav-logo {
+            color:$main_color;
+            font-size: 34px;
         }
-        &:focus {
-            box-shadow: none !important;
-            outline: none !important;
-          }
+        ul li {
+            color: $gray_color;
+            text-decoration: none;
+            font-size: 22px;
+            padding: 5px 10px;
+            &:hover {
+                color: $main_color;
+                font-weight: bold;
+            }
+        }
+        .fa-magnifying-glass {
+            color: $main_color;
+        }
+        input {
+            border: #000 solid 1px;
+            &:hover{
+                outline: none;
+                border: $main_color solid 1px;
+            }
+            &:focus {
+                box-shadow: none !important;
+                outline: none !important;
+              }
+        }
     }
 }
+
